@@ -20,7 +20,7 @@ public class Accessory {
     private String brand;
     private String category;
     private String description;   
-    private String price;
+    private double price;
     private boolean availability = true;    
     private int quantity;
     private String photography;
