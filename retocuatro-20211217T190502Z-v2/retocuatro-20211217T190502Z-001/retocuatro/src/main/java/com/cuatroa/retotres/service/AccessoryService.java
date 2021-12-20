@@ -66,7 +66,7 @@ public class AccessoryService {
                 if (accesory.getDescription() != null) {
                     accesoryDb.get().setDescription(accesory.getDescription());
                 }
-                if (accesory.getPrice() != null) {
+                if (accesory.getPrice() != 0.0) {
                     accesoryDb.get().setPrice(accesory.getPrice());
                 }
                 if (accesory.getQuantity() != 0) {
